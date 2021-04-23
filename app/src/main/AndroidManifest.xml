@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplicationfinal">
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:minAspectRatio="5"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.Dietapp.PaginaInicio"></activity>
+
+        <activity android:name="com.example.Dietapp.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.Dietapp.Deporte" />
+        <activity android:name="com.example.Dietapp.Micalendarrrrio" />
+        <activity android:name="com.example.Dietapp.PopupCarne" />
+        <activity android:name="com.example.Dietapp.Popupfruta" />
+        <activity android:name="com.example.Dietapp.PopupPescado" />
+        <activity android:name="com.example.Dietapp.PopupVerdurea" />
+        <activity android:name="com.example.Dietapp.PopunPasta" />
+        <activity android:name="com.example.Dietapp.Explica2" />
+        <activity android:name="com.example.Dietapp.Explica1" />
+        <activity android:name="com.example.Dietapp.Explica3" />
+        <activity android:name="com.example.Dietapp.Explica4" />
+        <activity android:name="com.example.Dietapp.Explica5" />
+        <activity android:name="com.example.Dietapp.Explica6" />
+        <activity android:name="com.example.Dietapp.PaginaPrincipal" />
+        <activity android:name="com.example.Dietapp.Seguimiento" />
+        <activity android:name="com.example.Dietapp.Carne" />
+        <activity android:name="com.example.Dietapp.Pescado" />
+        <activity android:name="com.example.Dietapp.Fruta" />
+        <activity android:name="com.example.Dietapp.VerdurayLegumbres" />
+        <activity android:name="com.example.Dietapp.Salsas" />
+        <activity android:name="com.example.Dietapp.CategoDeporte" />
+        <activity android:name="com.example.Dietapp.Pastas" />
+        <activity android:name="com.example.Dietapp.Categorias" />
+        <activity android:name="com.example.Dietapp.Cardio" />
+        <activity android:name="com.example.Dietapp.Abdominales" />
+        <activity android:name="com.example.Dietapp.Abdominales2" />
+        <activity android:name="com.example.Dietapp.Abdominales3" />
+        <activity android:name="com.example.Dietapp.Abdominales4" />
+        <activity android:name="com.example.Dietapp.Abdominales5" />
+        <activity android:name="com.example.Dietapp.BIceps" />
+        <activity android:name="com.example.Dietapp.BIceps2" />
+        <activity android:name="com.example.Dietapp.BIceps3" />
+        <activity android:name="com.example.Dietapp.BIceps4" />
+        <activity android:name="com.example.Dietapp.BIceps5" />
+        <activity android:name="com.example.Dietapp.Triceps" />
+        <activity android:name="com.example.Dietapp.Triceps2" />
+        <activity android:name="com.example.Dietapp.Triceps3" />
+        <activity android:name="com.example.Dietapp.Triceps4" />
+        <activity android:name="com.example.Dietapp.Triceps5" />
+        <activity android:name="com.example.Dietapp.Hombro" />
+        <activity android:name="com.example.Dietapp.Hombro2" />
+        <activity android:name="com.example.Dietapp.Hombro3" />
+        <activity android:name="com.example.Dietapp.Hombro4" />
+        <activity android:name="com.example.Dietapp.Pecho" />
+        <activity android:name="com.example.Dietapp.Pecho2" />
+        <activity android:name="com.example.Dietapp.Pecho3" />
+        <activity android:name="com.example.Dietapp.Pecho4" />
+        <activity android:name="com.example.Dietapp.Pecho5" />
+        <activity android:name="com.example.Dietapp.Espalda" />
+        <activity android:name="com.example.Dietapp.Espalda2" />
+        <activity android:name="com.example.Dietapp.Espalda3" />
+        <activity android:name="com.example.Dietapp.Espalda4" />
+        <activity android:name="com.example.Dietapp.Espalda5" />
+        <activity android:name="com.example.Dietapp.Pierna" />
+        <activity android:name="com.example.Dietapp.Pierna2" />
+        <activity android:name="com.example.Dietapp.Pierna3" />
+        <activity android:name="com.example.Dietapp.Pierna4" />
+        <activity android:name="com.example.Dietapp.Pierna5" />
+        <activity android:name="com.example.Dietapp.Gluteos" />
+        <activity android:name="com.example.Dietapp.Gluteos2" />
+        <activity android:name="com.example.Dietapp.Gluteos3" />
+        <activity android:name="com.example.Dietapp.Pagina_reto" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

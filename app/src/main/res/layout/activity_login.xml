@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Dietapp.Login">
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:text="Login"
+        android:onClick="lanzarinicio"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/textView15"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="116dp"
+        android:hint="contraseña"
+        app:layout_constraintEnd_toEndOf="@+id/textView125"
+        app:layout_constraintStart_toStartOf="@+id/textView125"
+        app:layout_constraintTop_toBottomOf="@+id/textView125" />
+
+    <EditText
+        android:id="@+id/textView125"
+        android:layout_width="118dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="148dp"
+        android:hint="usuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+
+        android:text="CrearUser"
+        app:layout_constraintEnd_toEndOf="@+id/button37"
+        app:layout_constraintStart_toStartOf="@+id/button37"
+        app:layout_constraintTop_toBottomOf="@+id/button37" />
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Recupera contraseña"
+
+        app:layout_constraintEnd_toEndOf="@+id/button38"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button38"
+        app:layout_constraintTop_toBottomOf="@+id/button38" />
+</android.support.constraint.ConstraintLayout>
